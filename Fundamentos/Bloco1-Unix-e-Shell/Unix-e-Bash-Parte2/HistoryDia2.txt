@@ -1,0 +1,15 @@
+ 1  cd Unix_tests
+    2  \ncurl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efcca01623b18d/raw/daa24c9fea66afb7d68f8d69f0c4b8eeb9406e83/countries"
+    3  less countries.txt
+    4  grep Brazil countries.txt
+    5  grep brazil countries.txt
+    6  touch phrases.txt
+    7  cat > phrases.txt
+    8  grep -iv fox phrases.txt
+    9  wc -w phrases.txt
+   10  wc -l phrases.txt
+   11  touch empty.tbt empty.pdf
+   12  ls
+   13  ls *.txt
+   14  ls *.tbt *.txt
+   15  man ls
