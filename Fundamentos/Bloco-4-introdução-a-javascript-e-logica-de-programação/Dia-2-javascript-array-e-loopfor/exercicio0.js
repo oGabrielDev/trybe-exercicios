@@ -68,7 +68,7 @@
 // }
 // console.log("O menor número do vetor é: ", menor);
 
-   console.log ("Exercicío Nº 8");
+// console.log ("Exercicío Nº 8");
 // let numbers = [];
 
 // for (let index = 1; index <= 25; index+= 1) {
@@ -77,3 +77,13 @@
 // }
 
 // console.log(numbers);
+
+console.log("Exercicío Nº 9");
+let numbers = [];
+let resultado = 0;
+for (let index = 1; index <= 25; index+= 1) {
+  numbers.push(index)
+  
+}
+
+console.log(numbers);
