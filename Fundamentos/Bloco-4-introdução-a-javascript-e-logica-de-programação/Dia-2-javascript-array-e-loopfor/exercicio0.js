@@ -44,4 +44,26 @@
 // }
 // console.log("O maior numero do vetor é: ", maior);
 
+// console.log("Exercicío Nº 6");
+// let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+// let impar = 0;
+// for (let i = 0; i < numbers.length; i += 1){
+//   if (numbers[i] %2 !== 0) {
+//     impar = numbers[i];
+//     console.log(impar);
+//   } else {
+//     console.log("Não é impar");
+//   }
+// }
+ 
+console.log("Exercicío Nº 7");
 
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let menor = numbers[0];
+
+for (let i = 1; i < numbers.length; i += 1) {
+  if (menor > numbers[i]){
+    menor = numbers[i]
+  }
+}
+console.log("O menor número do vetor é: ", menor);
