@@ -80,10 +80,10 @@
 
 // console.log("Exercicío Nº 9");
 // let numbers = [];
-// let resultado = 0;
+
 // for (let index = 1; index <= 25; index+= 1) {
 //   numbers.push(index)
-  
+//   numbers[index] /= 2;
 // }
 
 // console.log(numbers);
