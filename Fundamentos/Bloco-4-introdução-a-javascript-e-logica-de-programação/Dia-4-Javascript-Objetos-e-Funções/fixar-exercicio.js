@@ -17,3 +17,4 @@
 // for (let key in car) {
 //   console.log('No ano de  ' + car.year + ' foi feito um ' + car.manufacturer + ' com o nome de  ' + car.model);
 // }
+
