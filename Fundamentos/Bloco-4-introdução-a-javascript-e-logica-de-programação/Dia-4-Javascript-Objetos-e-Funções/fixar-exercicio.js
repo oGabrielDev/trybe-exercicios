@@ -5,7 +5,7 @@
 // };
 
 // for (let key in names) {
-//   console.log('Olá, ' + names[key]);
+//   console.log('Olá, ' + names.person1);
 // }
 
 // let car = {
