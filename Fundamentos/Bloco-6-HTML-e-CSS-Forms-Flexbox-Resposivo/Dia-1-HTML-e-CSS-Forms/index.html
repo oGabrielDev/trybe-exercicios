@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="cabecalho">
+      <h1>TrybeTrip</h1>
+      <p>Vai perder a chance de fazer aquela viagem?!</p>
+    </header>
+    <form action="" method="get" class="form">
+      <div class="form-container">
+        <div class="line-container">
+          <label for="name">Nome:</label>
+          <input type="text" name="name" id="name">
+        </div>
+        <div class="line-container">
+          <label for="email">E-mail:</label>
+          <input type="email" name="email" id="email">
+        </div>
+        <div class="line-container">
+        <input type="radio" name="opcao" id="italy" value="Italia">
+        <label for="italy">Italia</label>
+        <input type="radio" name="opcao" id="EUA" value="Estados-Unidos">
+        <label for="EUA">Estados Unidos</label>
+        <input type="radio" name="opcao" id="Mexico" value="Mexico">
+        <label for="Mexico">Mexico</label>
+        <input type="radio" name="opcao" id="Europa" value="Europa">
+        <label for="Europa">Europa</label>
+        </div>
+        <div class="line-container">
+          <label for="text-area">Por que você quer fazer esse viagem?:</label>
+          <textarea name="text-area" id="text-area" cols="30" rows="10" maxlength="200"></textarea>
+        </div>
+        <div class="line-container">
+          <label for="data">Data:</label>
+          <input type="date" name="data" id="data">
+        </div>
+        <div class="liner-container">
+          <label for="sim">Aceita receber dicas de locais para conhecer</label>
+          <input type="checkbox" name="termos" id="sim">
+          <br>
+          <label for="aceitou">Aceita os termos de participação do sorteio</label>
+          <input type="checkbox" name="termos" id="aceitou">
+        </div>
+        <footer class="rodape">
+          <button type="submit" class="btnEnviar">Enviar</button>
+          <button type="reset" class="btnApagar">Apagar</button>
+        </footer>
+      </div>
+    </form>
+  </body>
+</html>
