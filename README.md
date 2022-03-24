@@ -49,7 +49,7 @@ São 1.500 horas de aulas que abordam introdução ao desenvolvimento de softwar
 
 ##### Bloco 6: HTML & CSS avançado
 
-- [ ] 6-1: _HTML & CSS - Forms_
+- [x] 6-1: _HTML & CSS - Forms_
 - [ ] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
 - [ ] 6-3: _CSS Flexbox - Part 1_
 - [ ] 6-4: _CSS Flexbox - Part 2_
