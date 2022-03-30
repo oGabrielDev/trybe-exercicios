@@ -1,0 +1,89 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+@media screen and (max-width: 400px){
+  body {
+    margin: 0 20px;
+    background-color: black;
+    color: white;
+  }
+  
+  .container p {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .main-content h1 {
+    font-size: 20px;
+  }
+
+  .main-content p {
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .center {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 800px){
+  body {
+    margin: 10px 20px;
+    background-color: antiquewhite;
+  }
+
+  .container p {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .main-content h1 {
+    font-size: 25px;
+  }
+
+  .main-content p {
+    font-size: 24px;
+  }
+
+  .center {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1640px) {
+  body {
+    margin: 10px 25px;
+    background-color: blanchedalmond;
+  }
+  .container p {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .main-content h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .main-content p {
+    font-size: 29px;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  footer {
+    font-size: 20px;
+  }
+
+  footer p {
+    font-size: 20px;
+  }
+}
